@@ -1,4 +1,3 @@
-import '@tarojs/async-await';
 import React, { Component } from 'react'
 import { Provider } from 'react-redux'
 import dva from './utils/dva';
