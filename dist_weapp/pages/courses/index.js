@@ -1,9 +1,9 @@
 (wx["webpackJsonp"] = wx["webpackJsonp"] || []).push([["pages/courses/index"],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./src/pages/courses/index.tsx":
-/*!*********************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./src/pages/courses/index.tsx ***!
-  \*********************************************************************/
+/***/ "./node_modules/@tarojs/mini-runner/node_modules/babel-loader/lib/index.js!./src/pages/courses/index.tsx":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/@tarojs/mini-runner/node_modules/babel-loader/lib!./src/pages/courses/index.tsx ***!
+  \******************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -50,13 +50,13 @@ function Courses() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _tarojs_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @tarojs/runtime */ "./node_modules/@tarojs/runtime/dist/runtime.esm.js");
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_index_tsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/babel-loader/lib!./index.tsx */ "./node_modules/babel-loader/lib/index.js!./src/pages/courses/index.tsx");
+/* harmony import */ var _node_modules_tarojs_mini_runner_node_modules_babel_loader_lib_index_js_index_tsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/@tarojs/mini-runner/node_modules/babel-loader/lib!./index.tsx */ "./node_modules/@tarojs/mini-runner/node_modules/babel-loader/lib/index.js!./src/pages/courses/index.tsx");
 
 
 var config = {"navigationBarTitleText":"课程页"};
 
 
-var inst = Page(Object(_tarojs_runtime__WEBPACK_IMPORTED_MODULE_0__["createPageConfig"])(_node_modules_babel_loader_lib_index_js_index_tsx__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], 'pages/courses/index', {}, config || {}))
+var inst = Page(Object(_tarojs_runtime__WEBPACK_IMPORTED_MODULE_0__["createPageConfig"])(_node_modules_tarojs_mini_runner_node_modules_babel_loader_lib_index_js_index_tsx__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], 'pages/courses/index', {}, config || {}))
 
 
 

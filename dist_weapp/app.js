@@ -4,10 +4,10 @@ require("./taro");
 
 (wx["webpackJsonp"] = wx["webpackJsonp"] || []).push([["app"],{
 
-/***/ "./node_modules/babel-loader/lib/index.js!./src/app.tsx":
-/*!*****************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./src/app.tsx ***!
-  \*****************************************************/
+/***/ "./node_modules/@tarojs/mini-runner/node_modules/babel-loader/lib/index.js!./src/app.tsx":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@tarojs/mini-runner/node_modules/babel-loader/lib!./src/app.tsx ***!
+  \**************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -98,18 +98,20 @@ var App = /*#__PURE__*/function (_Component) {
 /* harmony import */ var _babel_runtime_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/typeof */ "./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/typeof.js");
 /* harmony import */ var is_plain_object__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! is-plain-object */ "./node_modules/is-plain-object/index.js");
 /* harmony import */ var is_plain_object__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(is_plain_object__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var warning__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! warning */ "./node_modules/warning/browser.js");
-/* harmony import */ var warning__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(warning__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @babel/runtime/helpers/esm/toConsumableArray */ "./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/toConsumableArray.js");
-/* harmony import */ var flatten__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! flatten */ "./node_modules/flatten/index.js");
-/* harmony import */ var flatten__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(flatten__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var global_window__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! global/window */ "./node_modules/global/window.js");
-/* harmony import */ var global_window__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(global_window__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @babel/runtime/helpers/esm/slicedToArray */ "./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/dva-core/node_modules/@babel/runtime/regenerator/index.js");
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/toConsumableArray */ "./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/toConsumableArray.js");
+/* harmony import */ var _babel_runtime_helpers_esm_toArray__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/esm/toArray */ "./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/toArray.js");
+/* harmony import */ var warning__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! warning */ "./node_modules/warning/browser.js");
+/* harmony import */ var warning__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(warning__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var flatten__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! flatten */ "./node_modules/flatten/index.js");
+/* harmony import */ var flatten__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(flatten__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var global_window__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! global/window */ "./node_modules/global/window.js");
+/* harmony import */ var global_window__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(global_window__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @babel/runtime/helpers/esm/slicedToArray */ "./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/dva-core/node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14__);
+
 
 
 
@@ -199,7 +201,7 @@ var NAMESPACE_SEP = '/';
 
 function prefix(obj, namespace, type) {
   return Object.keys(obj).reduce(function (memo, key) {
-    warning__WEBPACK_IMPORTED_MODULE_6___default()(key.indexOf("".concat(namespace).concat(NAMESPACE_SEP)) !== 0, "[prefixNamespace]: ".concat(type, " ").concat(key, " should not be prefixed with namespace ").concat(namespace));
+    warning__WEBPACK_IMPORTED_MODULE_8___default()(key.indexOf("".concat(namespace).concat(NAMESPACE_SEP)) !== 0, "[prefixNamespace]: ".concat(type, " ").concat(key, " should not be prefixed with namespace ").concat(namespace));
     var newKey = "".concat(namespace).concat(NAMESPACE_SEP).concat(key);
     memo[newKey] = obj[key];
     return memo;
@@ -213,7 +215,12 @@ function prefixNamespace(model) {
 
   if (reducers) {
     if (isArray(reducers)) {
-      model.reducers[0] = prefix(reducers[0], namespace, 'reducer');
+      // 需要复制一份，不能直接修改 model.reducers[0], 会导致微前端场景下，重复添加前缀
+      var _reducers = Object(_babel_runtime_helpers_esm_toArray__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"])(reducers),
+          reducer = _reducers[0],
+          rest = _reducers.slice(1);
+
+      model.reducers = [prefix(reducer, namespace, 'reducer')].concat(Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(rest));
     } else {
       model.reducers = prefix(reducers, namespace, 'reducer');
     }
@@ -240,7 +247,7 @@ function filterHooks(obj) {
 
 var Plugin = /*#__PURE__*/function () {
   function Plugin() {
-    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"])(this, Plugin);
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"])(this, Plugin);
 
     this._handleActions = null;
     this.hooks = hooks.reduce(function (memo, key) {
@@ -249,7 +256,7 @@ var Plugin = /*#__PURE__*/function () {
     }, {});
   }
 
-  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"])(Plugin, [{
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"])(Plugin, [{
     key: "use",
     value: function use(plugin) {
       invariant__WEBPACK_IMPORTED_MODULE_3___default()(is_plain_object__WEBPACK_IMPORTED_MODULE_5___default()(plugin), 'plugin.use: plugin should be plain object');
@@ -396,13 +403,13 @@ function createStore(_ref) {
   var extraEnhancers = plugin.get('extraEnhancers');
   invariant__WEBPACK_IMPORTED_MODULE_3___default()(isArray(extraEnhancers), "[app.start] extraEnhancers should be array, but got ".concat(Object(_babel_runtime_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(extraEnhancers)));
   var extraMiddlewares = plugin.get('onAction');
-  var middlewares = setupMiddlewares([promiseMiddleware, sagaMiddleware].concat(Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"])(flatten__WEBPACK_IMPORTED_MODULE_10___default()(extraMiddlewares))));
-  var composeEnhancers =  true && global_window__WEBPACK_IMPORTED_MODULE_11___default.a.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ? global_window__WEBPACK_IMPORTED_MODULE_11___default.a.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({
+  var middlewares = setupMiddlewares([promiseMiddleware, sagaMiddleware].concat(Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(flatten__WEBPACK_IMPORTED_MODULE_11___default()(extraMiddlewares))));
+  var composeEnhancers =  true && global_window__WEBPACK_IMPORTED_MODULE_12___default.a.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ? global_window__WEBPACK_IMPORTED_MODULE_12___default.a.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({
     trace: true,
     maxAge: 30
   }) : redux__WEBPACK_IMPORTED_MODULE_1__[/* compose */ "d"];
-  var enhancers = [redux__WEBPACK_IMPORTED_MODULE_1__[/* applyMiddleware */ "a"].apply(void 0, Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"])(middlewares))].concat(Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"])(extraEnhancers));
-  return Object(redux__WEBPACK_IMPORTED_MODULE_1__[/* createStore */ "e"])(reducers, initialState, composeEnhancers.apply(void 0, Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"])(enhancers)));
+  var enhancers = [redux__WEBPACK_IMPORTED_MODULE_1__[/* applyMiddleware */ "a"].apply(void 0, Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(middlewares))].concat(Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(extraEnhancers));
+  return Object(redux__WEBPACK_IMPORTED_MODULE_1__[/* createStore */ "e"])(reducers, initialState, composeEnhancers.apply(void 0, Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(enhancers)));
 }
 
 function prefixType(type, model) {
@@ -419,13 +426,13 @@ function prefixType(type, model) {
 
 function getSaga(effects$1, model, onError, onEffect) {
   var opts = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : {};
-  return /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.mark(function _callee3() {
+  return /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.mark(function _callee3() {
     var key;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.wrap(function _callee3$(_context3) {
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.wrap(function _callee3$(_context3) {
       while (1) {
         switch (_context3.prev = _context3.next) {
           case 0:
-            _context3.t0 = _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.keys(effects$1);
+            _context3.t0 = _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.keys(effects$1);
 
           case 1:
             if ((_context3.t1 = _context3.t0()).done) {
@@ -440,9 +447,9 @@ function getSaga(effects$1, model, onError, onEffect) {
               break;
             }
 
-            return _context3.delegateYield( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.mark(function _callee2() {
+            return _context3.delegateYield( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.mark(function _callee2() {
               var watcher, task;
-              return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.wrap(function _callee2$(_context2) {
+              return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.wrap(function _callee2$(_context2) {
                 while (1) {
                   switch (_context2.prev = _context2.next) {
                     case 0:
@@ -453,8 +460,8 @@ function getSaga(effects$1, model, onError, onEffect) {
                     case 3:
                       task = _context2.sent;
                       _context2.next = 6;
-                      return redux_saga__WEBPACK_IMPORTED_MODULE_2__[/* effects */ "b"].fork( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.mark(function _callee() {
-                        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.wrap(function _callee$(_context) {
+                      return redux_saga__WEBPACK_IMPORTED_MODULE_2__[/* effects */ "b"].fork( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.mark(function _callee() {
+                        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.wrap(function _callee$(_context) {
                           while (1) {
                             switch (_context.prev = _context.next) {
                               case 0:
@@ -495,7 +502,7 @@ function getSaga(effects$1, model, onError, onEffect) {
 }
 
 function getWatcher(key, _effect, model, onError, onEffect, opts) {
-  var _marked = /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.mark(sagaWithCatch);
+  var _marked = /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.mark(sagaWithCatch);
 
   var effect = _effect;
   var type = 'takeEvery';
@@ -503,7 +510,7 @@ function getWatcher(key, _effect, model, onError, onEffect, opts) {
   var delayMs;
 
   if (Array.isArray(_effect)) {
-    var _effect2 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_12__[/* default */ "a"])(_effect, 1);
+    var _effect2 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_13__[/* default */ "a"])(_effect, 1);
 
     effect = _effect2[0];
     var _opts = _effect[1];
@@ -539,7 +546,7 @@ function getWatcher(key, _effect, model, onError, onEffect, opts) {
         ret,
         _args4 = arguments;
 
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.wrap(function sagaWithCatch$(_context4) {
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.wrap(function sagaWithCatch$(_context4) {
       while (1) {
         switch (_context4.prev = _context4.next) {
           case 0:
@@ -556,7 +563,7 @@ function getWatcher(key, _effect, model, onError, onEffect, opts) {
 
           case 5:
             _context4.next = 7;
-            return effect.apply(void 0, Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"])(args.concat(createEffects(model, opts))));
+            return effect.apply(void 0, Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(args.concat(createEffects(model, opts))));
 
           case 7:
             ret = _context4.sent;
@@ -597,8 +604,8 @@ function getWatcher(key, _effect, model, onError, onEffect, opts) {
       return sagaWithCatch;
 
     case 'takeLatest':
-      return /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.mark(function _callee4() {
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.wrap(function _callee4$(_context5) {
+      return /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.mark(function _callee4() {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.wrap(function _callee4$(_context5) {
           while (1) {
             switch (_context5.prev = _context5.next) {
               case 0:
@@ -614,8 +621,8 @@ function getWatcher(key, _effect, model, onError, onEffect, opts) {
       });
 
     case 'throttle':
-      return /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.mark(function _callee5() {
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.wrap(function _callee5$(_context6) {
+      return /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.mark(function _callee5() {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.wrap(function _callee5$(_context6) {
           while (1) {
             switch (_context6.prev = _context6.next) {
               case 0:
@@ -631,16 +638,16 @@ function getWatcher(key, _effect, model, onError, onEffect, opts) {
       });
 
     case 'poll':
-      return /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.mark(function _callee6() {
+      return /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.mark(function _callee6() {
         var _marked2, delay, pollSagaWorker, call, take, race, action;
 
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.wrap(function _callee6$(_context8) {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.wrap(function _callee6$(_context8) {
           while (1) {
             switch (_context8.prev = _context8.next) {
               case 0:
                 pollSagaWorker = function _ref3(sagaEffects, action) {
                   var call;
-                  return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.wrap(function pollSagaWorker$(_context7) {
+                  return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.wrap(function pollSagaWorker$(_context7) {
                     while (1) {
                       switch (_context7.prev = _context7.next) {
                         case 0:
@@ -672,7 +679,7 @@ function getWatcher(key, _effect, model, onError, onEffect, opts) {
                   });
                 };
 
-                _marked2 = /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.mark(pollSagaWorker);
+                _marked2 = /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.mark(pollSagaWorker);
                 call = redux_saga__WEBPACK_IMPORTED_MODULE_2__[/* effects */ "b"].call, take = redux_saga__WEBPACK_IMPORTED_MODULE_2__[/* effects */ "b"].take, race = redux_saga__WEBPACK_IMPORTED_MODULE_2__[/* effects */ "b"].race;
 
               case 4:
@@ -697,8 +704,8 @@ function getWatcher(key, _effect, model, onError, onEffect, opts) {
       });
 
     default:
-      return /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.mark(function _callee7() {
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_13___default.a.wrap(function _callee7$(_context9) {
+      return /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.mark(function _callee7() {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_14___default.a.wrap(function _callee7$(_context9) {
           while (1) {
             switch (_context9.prev = _context9.next) {
               case 0:
@@ -722,7 +729,7 @@ function createEffects(model, opts) {
         namespacePrefixWarning = _opts$namespacePrefix === void 0 ? true : _opts$namespacePrefix;
 
     if (namespacePrefixWarning) {
-      warning__WEBPACK_IMPORTED_MODULE_6___default()(type.indexOf("".concat(model.namespace).concat(NAMESPACE_SEP)) !== 0, "[".concat(name, "] ").concat(type, " should not be prefixed with namespace ").concat(model.namespace));
+      warning__WEBPACK_IMPORTED_MODULE_8___default()(type.indexOf("".concat(model.namespace).concat(NAMESPACE_SEP)) !== 0, "[".concat(name, "] ").concat(type, " should not be prefixed with namespace ").concat(model.namespace));
     }
   }
 
@@ -835,7 +842,7 @@ function handleActions(handlers, defaultState) {
   var reducers = Object.keys(handlers).map(function (type) {
     return handleAction(type, handlers[type]);
   });
-  var reducer = reduceReducers.apply(void 0, Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"])(reducers));
+  var reducer = reduceReducers.apply(void 0, Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(reducers));
   return function () {
     var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : defaultState;
     var action = arguments.length > 1 ? arguments[1] : undefined;
@@ -877,7 +884,7 @@ function createPromiseMiddleware(app) {
     if (!type || typeof type !== 'string') return false;
 
     var _type$split = type.split(NAMESPACE_SEP),
-        _type$split2 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_12__[/* default */ "a"])(_type$split, 1),
+        _type$split2 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_13__[/* default */ "a"])(_type$split, 1),
         namespace = _type$split2[0];
 
     var model = app._models.filter(function (m) {
@@ -898,7 +905,7 @@ function prefixedDispatch(dispatch, model) {
   return function (action) {
     var type = action.type;
     invariant__WEBPACK_IMPORTED_MODULE_3___default()(type, 'dispatch: action should be a plain Object with type');
-    warning__WEBPACK_IMPORTED_MODULE_6___default()(type.indexOf("".concat(model.namespace).concat(NAMESPACE_SEP)) !== 0, "dispatch: ".concat(type, " should not be prefixed with namespace ").concat(model.namespace));
+    warning__WEBPACK_IMPORTED_MODULE_8___default()(type.indexOf("".concat(model.namespace).concat(NAMESPACE_SEP)) !== 0, "dispatch: ".concat(type, " should not be prefixed with namespace ").concat(model.namespace));
     return dispatch(Object(_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({}, action, {
       type: prefixType(type, model)
     }));
@@ -936,7 +943,7 @@ function unlisten(unlisteners, namespace) {
   var _unlisteners$namespac = unlisteners[namespace],
       funcs = _unlisteners$namespac.funcs,
       nonFuncs = _unlisteners$namespac.nonFuncs;
-  warning__WEBPACK_IMPORTED_MODULE_6___default()(nonFuncs.length === 0, "[app.unmodel] subscription should return unlistener function, check these subscriptions ".concat(nonFuncs.join(', ')));
+  warning__WEBPACK_IMPORTED_MODULE_8___default()(nonFuncs.length === 0, "[app.unmodel] subscription should return unlistener function, check these subscriptions ".concat(nonFuncs.join(', ')));
   var _iteratorNormalCompletion = true;
   var _didIteratorError = false;
   var _iteratorError = undefined;
@@ -1549,6 +1556,30 @@ function _slicedToArray(arr, i) {
 
 /***/ }),
 
+/***/ "./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/toArray.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/toArray.js ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/*! exports used: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _toArray; });
+/* harmony import */ var _babel_runtime_helpers_esm_arrayWithHoles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/arrayWithHoles */ "./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js");
+/* harmony import */ var _babel_runtime_helpers_esm_iterableToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/iterableToArray */ "./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/iterableToArray.js");
+/* harmony import */ var _babel_runtime_helpers_esm_unsupportedIterableToArray__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/unsupportedIterableToArray */ "./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js");
+/* harmony import */ var _babel_runtime_helpers_esm_nonIterableRest__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/nonIterableRest */ "./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/nonIterableRest.js");
+
+
+
+
+function _toArray(arr) {
+  return Object(_babel_runtime_helpers_esm_arrayWithHoles__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(arr) || Object(_babel_runtime_helpers_esm_iterableToArray__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(arr) || Object(_babel_runtime_helpers_esm_unsupportedIterableToArray__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(arr) || Object(_babel_runtime_helpers_esm_nonIterableRest__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])();
+}
+
+/***/ }),
+
 /***/ "./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/toConsumableArray.js":
 /*!********************************************************************************************!*\
   !*** ./node_modules/dva-core/node_modules/@babel/runtime/helpers/esm/toConsumableArray.js ***!
@@ -1910,7 +1941,7 @@ if (typeof window !== "undefined") {
 }
 
 module.exports = win;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! @tarojs/runtime */ "./node_modules/@tarojs/runtime/dist/runtime.esm.js")["window"], __webpack_require__(/*! ./../@tarojs/mini-runner/node_modules/webpack/buildin/global.js */ "./node_modules/@tarojs/mini-runner/node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! @tarojs/runtime */ "./node_modules/@tarojs/runtime/dist/runtime.esm.js")["window"], __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -2664,7 +2695,7 @@ module.exports = function isObject(val) {
     value: !0
   });
 });
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../@tarojs/mini-runner/node_modules/webpack/buildin/global.js */ "./node_modules/@tarojs/mini-runner/node_modules/webpack/buildin/global.js"), __webpack_require__(/*! @tarojs/runtime */ "./node_modules/@tarojs/runtime/dist/runtime.esm.js")["window"]))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js"), __webpack_require__(/*! @tarojs/runtime */ "./node_modules/@tarojs/runtime/dist/runtime.esm.js")["window"]))
 
 /***/ }),
 
@@ -5324,6 +5355,41 @@ module.exports = warning;
 
 /***/ }),
 
+/***/ "./node_modules/webpack/buildin/module.js":
+/*!***********************************!*\
+  !*** (webpack)/buildin/module.js ***!
+  \***********************************/
+/*! no static exports found */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = function (module) {
+  if (!module.webpackPolyfill) {
+    module.deprecate = function () {};
+
+    module.paths = []; // module.parent = undefined by default
+
+    if (!module.children) module.children = [];
+    Object.defineProperty(module, "loaded", {
+      enumerable: true,
+      get: function get() {
+        return module.l;
+      }
+    });
+    Object.defineProperty(module, "id", {
+      enumerable: true,
+      get: function get() {
+        return module.i;
+      }
+    });
+    module.webpackPolyfill = 1;
+  }
+
+  return module;
+};
+
+/***/ }),
+
 /***/ "./src/app.scss":
 /*!**********************!*\
   !*** ./src/app.scss ***!
@@ -5346,7 +5412,7 @@ module.exports = warning;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _tarojs_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @tarojs/runtime */ "./node_modules/@tarojs/runtime/dist/runtime.esm.js");
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_app_tsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/babel-loader/lib!./app.tsx */ "./node_modules/babel-loader/lib/index.js!./src/app.tsx");
+/* harmony import */ var _node_modules_tarojs_mini_runner_node_modules_babel_loader_lib_index_js_app_tsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/@tarojs/mini-runner/node_modules/babel-loader/lib!./app.tsx */ "./node_modules/@tarojs/mini-runner/node_modules/babel-loader/lib/index.js!./src/app.tsx");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/cjs/react.production.min.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-dom */ "./node_modules/@tarojs/react/dist/react.esm.js");
@@ -5358,7 +5424,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var config = {"pages":["pages/home/index","pages/courses/index","pages/find/index","pages/mine/index"],"tabBar":{"color":"#bfbfbf","selectedColor":"#00BED4","list":[{"pagePath":"pages/home/index","text":"首页","iconPath":"./assets/icon/home.png","selectedIconPath":"./assets/icon/home_active.png"},{"pagePath":"pages/courses/index","text":"课程","iconPath":"./assets/icon/courses.png","selectedIconPath":"./assets/icon/courses_active.png"},{"pagePath":"pages/find/index","text":"发现","iconPath":"./assets/icon/find.png","selectedIconPath":"./assets/icon/find_active.png"},{"pagePath":"pages/mine/index","text":"我的","iconPath":"./assets/icon/mine.png","selectedIconPath":"./assets/icon/mine_active.png"}]},"window":{"backgroundTextStyle":"light","navigationBarBackgroundColor":"#fff","navigationBarTitleText":"WeChat","navigationBarTextStyle":"black"}};
 _tarojs_runtime__WEBPACK_IMPORTED_MODULE_0__["window"].__taroAppConfig = config
-var inst = App(Object(_tarojs_runtime__WEBPACK_IMPORTED_MODULE_0__["createReactApp"])(_node_modules_babel_loader_lib_index_js_app_tsx__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], react__WEBPACK_IMPORTED_MODULE_2__, react_dom__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], config))
+var inst = App(Object(_tarojs_runtime__WEBPACK_IMPORTED_MODULE_0__["createReactApp"])(_node_modules_tarojs_mini_runner_node_modules_babel_loader_lib_index_js_app_tsx__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], react__WEBPACK_IMPORTED_MODULE_2__, react_dom__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], config))
 
 
 

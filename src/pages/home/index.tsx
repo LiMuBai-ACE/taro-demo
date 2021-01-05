@@ -9,7 +9,7 @@ const Home: FC = (props: any) => {
 
     return (
         <View className='index'>
-            Home
+            Home3333333333333333333333333333333
         </View>
     )
 
