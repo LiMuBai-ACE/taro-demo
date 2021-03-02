@@ -26,7 +26,7 @@ var Home = function Home(props) {
   console.log(props, '=====>');
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* View */ "a"], {
     className: "index"
-  }, "Home");
+  }, "Home3333333333333333333333333333333");
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__[/* connect */ "b"])(function (_ref) {
